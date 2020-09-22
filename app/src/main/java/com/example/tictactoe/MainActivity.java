@@ -114,7 +114,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private void resetGame() {
         player1Points = 0;
         player2Points = 0;
-        resetBoard(); 
+        resetBoard();
         updatePoints();
     }
 

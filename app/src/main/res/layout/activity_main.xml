@@ -15,18 +15,20 @@
             android:id="@+id/text_player1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:freezesText="true"
             android:text="@string/score1"
-            android:textSize="30sp"
-            android:freezesText="true"/>
+            android:textColor="#000000"
+            android:textSize="30sp" />
 
         <TextView
             android:id="@+id/text_player2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/text_player1"
+            android:freezesText="true"
             android:text="@string/score2"
-            android:textSize="30sp"
-            android:freezesText="true"/>
+            android:textColor="#000000"
+            android:textSize="30sp" />
 
         <Button
             android:id="@+id/button_reset"

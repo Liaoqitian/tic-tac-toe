@@ -1,2 +1,2 @@
 # tic-tac-toe
-Android application: Tic Tac Toe
+Android application: Tic Tac Toe (PVP)
